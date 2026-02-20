@@ -65,7 +65,7 @@ while (true)
         Console.WriteLine("Digite o título:");
         var nome = Console.ReadLine();
 
-        Console.Write("""
+        Console.WriteLine("""
                 Data de lançamento:
                 YYYY-MM-DD
                 """);
