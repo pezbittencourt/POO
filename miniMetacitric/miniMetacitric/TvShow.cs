@@ -1,4 +1,4 @@
-﻿public class Movie : Title
+public class TvShow : Title
 {
     public int duration { get; set; }
 

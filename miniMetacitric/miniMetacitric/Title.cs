@@ -5,4 +5,14 @@
     public int MetaScore { get; set; }
     public int UserScore { get; set; }
 
+    public virtual void Exibir()
+    {
+        Console.WriteLine($"""
+            {Name}
+            
+          Lançamento: {ReleaseDate:yyyy-MM-dd}
+          MetaScore: {MetaScore}
+          UserScore: {UserScore}
+          """);
+    }
 }
